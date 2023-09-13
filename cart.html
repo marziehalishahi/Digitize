@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitize App - CartPage</title>
+</head>
+
+<body class="h-screen bg-gray-100">
+
+    <!-- App bar -->
+    <div class="flex items-center justify-between p-4 mt-10 mb-6 md:hidden">
+        <div class="flex items-center justify-center bg-white rounded shadow w-7 h-7 "><svg
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+        </div>
+        <div class="text-lg font-bold text-slate-800">سبد خرید</div>
+        <div class="flex items-center justify-center bg-white rounded shadow w-7 h-7"><svg
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                <path fill-rule="evenodd"
+                    d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                    clip-rule="evenodd" />
+            </svg>
+        </div>
+    </div>
+    <!-- cart items -->
+    <div class="flex flex-col px-4 gap-y-4">
+        <div class="flex items-stretch justify-between p-4 bg-white rounded-lg ">
+            <div class="w-16 bg-cyan-300">
+                <img class="w-full h-auto" src="assets/img/Cart/1.png" alt="">
+            </div>
+            <div class="flex flex-col justify-between bg-red-400">
+                <span>ساعت هوشمند اپل سری-7</span>
+                <span>15,350,000تومان</span>
+            </div> 
+            <div class="flex flex-col items-center justify-between">
+                <span class="flex items-center justify-between mr-14"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="none">
+                        <path stroke="#FF755C" stroke-linecap="round" stroke-width="1.269"
+                            d="M9.9.897.898 9.9M1.1.898 10.102 9.9" />
+                    </svg></span>
+                <div class="flex items-center gap-x-2">
+                    <span class="flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
+                            <path fill="#FFCBCB" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Z" />
+                            <path stroke="#FF755C" stroke-linecap="round" stroke-width=".802" d="M.401-.401h6.148"
+                                transform="matrix(1 0 -.10495 .99448 4.471 8.947)" />
+                        </svg></span>
+                    <span class="p-2 border border-orange-400 rounded-sm bg-stone-50 ">1</span>
+                    <span class="flex items-center justify-center"><svg xmlns="http://-www.w3.org/2000/svg" width="16" height="16" fill="none">
+                            <path fill="#AFAFAF" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Z" />
+                            <path stroke="#222F5D" stroke-linecap="round" stroke-width=".802" d="M.401-.401h6.148"
+                                transform="matrix(1 0 -.10495 .99448 4.471 8.947)" />
+                            <path stroke="#222F5D" stroke-linecap="round" stroke-width=".802" d="M.401-.401h6.148"
+                                transform="matrix(0 -1 -.99448 .10495 7.477 11.95)" />
+                        </svg></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
